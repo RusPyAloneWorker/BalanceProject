@@ -1,7 +1,7 @@
 ﻿namespace ConsoleApp2;
 
 /// <summary>
-/// Рубль
+/// Рубль.
 /// </summary>
 public record RubleCurrency: Currency
 {

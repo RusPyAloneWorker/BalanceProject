@@ -7,8 +7,8 @@ public class Math
 		var myCashBalance = new CashBalance(new DollarCurrency(), 1_000);
 		var currencyExchangeRates = new Dictionary<(Currency from, Currency to), double>()
 		{
-			{(new RubleCurrency(), new EuroCurrency()), 1.18},
-			{(new DollarCurrency(), new RubleCurrency()), 0.98},
+			{ (new RubleCurrency(), new EuroCurrency()), 1.18 },
+			{ (new DollarCurrency(), new RubleCurrency()), 0.98 },
 		};
 		
 		var applicationCurrencyCourse = new ApplicationCurrencyCourse(currencyExchangeRates);

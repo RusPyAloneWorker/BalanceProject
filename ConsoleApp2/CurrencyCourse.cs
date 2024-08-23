@@ -60,6 +60,9 @@ public abstract class CurrencyCourse
 	}
 }
 
+/// <summary>
+/// Курс валют для конвертации.
+/// </summary>
 public class ApplicationCurrencyCourse : CurrencyCourse
 {
 	public ApplicationCurrencyCourse(Dictionary<(Currency from, Currency to), double> currencyExchangeRates)

@@ -1,7 +1,7 @@
 ﻿namespace ConsoleApp2;
 
 /// <summary>
-/// Калькулю
+/// Калькулятор денежных сумм.
 /// </summary>
 public class CashCalculator
 {

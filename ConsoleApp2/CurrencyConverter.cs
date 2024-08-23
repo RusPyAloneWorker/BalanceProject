@@ -20,7 +20,7 @@ public abstract class CurrencyConverter
 	/// </summary>
 	/// <param name="from">Конретация валюты из.</param>
 	/// <param name="to">Валюта, в которую конвертируют.</param>
-	/// <param name="value">Сумма денег</param>
+	/// <param name="value">Сумма денег.</param>
 	/// <returns>Итоговая сумма денег.</returns>
 	public decimal Convert(Currency from, Currency to, decimal value)
 	{
@@ -34,7 +34,7 @@ public abstract class CurrencyConverter
 	/// </summary>
 	/// <param name="from">Конретация валюты из.</param>
 	/// <param name="to">Валюта, в которую конвертируют.</param>
-	/// <param name="cashBalance">Сумма денег</param>
+	/// <param name="cashBalance">Сумма денег.</param>
 	/// <returns>Итоговая сумма денег.</returns>
 	public decimal Convert(Currency from, Currency to, CashBalance cashBalance)
 	{
